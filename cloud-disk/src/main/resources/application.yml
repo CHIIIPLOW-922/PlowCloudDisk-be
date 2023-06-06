@@ -1,0 +1,17 @@
+#访问端口
+server:
+  port: 8080
+  #session过期时间
+  servlet:
+    context-path: /api
+    session:
+      timeout: PT60M
+#处理favicon
+spring:
+  mvc:
+    favicon:
+      enabled: false
+  web:
+    resources:
+      add-mappings: false
+
